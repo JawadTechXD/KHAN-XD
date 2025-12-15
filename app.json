@@ -74,8 +74,14 @@
       "value": "true"  
     },
 
-    "ANTI_DELETE_PATH": {
-      "description": "change it to -same- if you want to resend deleted message in same chat otherwise inbox",
+     "ANTI_EDIT": {
+      "description": "set true for show edited messages. ( true / false )",
+      "required": false,
+      "value": "true"  
+    },
+
+    "RECOVERY_PATH": {
+      "description": "change it to -same- if you want to resend deleted & edited message in same chat otherwise inbox",
       "required": false,
       "value": "inbox"
     },
