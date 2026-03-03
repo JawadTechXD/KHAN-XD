@@ -7,9 +7,164 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "Put the session-id here. (Required)",
       "required": true,
       "value": ""
+    },
+    "PREFIX": {
+      "description": "Bot prefix (Default: .)",
+      "required": false,
+      "value": "."
+    },
+    "BOT_NAME": {
+      "description": "Your bot name (Default: KHAN-MD)",
+      "required": false,
+      "value": "KHAN-MD"
+    },
+    "MODE": {
+      "description": "Bot mode: public/private/inbox/groups (Default: private)",
+      "required": false,
+      "value": "public"
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner WhatsApp number without + (Default: 923427582273)",
+      "required": false,
+      "value": "923427582273"
+    },
+    "OWNER_NAME": {
+      "description": "Owner name (Default: Jᴀᴡᴀᴅ TᴇᴄʜX)",
+      "required": false,
+      "value": "Jᴀᴡᴀᴅ TᴇᴄʜX"
+    },
+    "AUTO_REPLY": {
+      "description": "Auto reply to messages: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STATUS_REPLY": {
+      "description": "Auto reply to status: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_STATUS_MSG": {
+      "description": "Auto status reply message",
+      "required": false,
+      "value": "*KHAN MD VIEWED YOUR STATUS 🤖*"
+    },
+    "READ_MESSAGE": {
+      "description": "Auto read messages: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_REACT": {
+      "description": "Auto react to messages: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "OWNER_REACT": {
+      "description": "Owner auto react: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "ALWAYS_ONLINE": {
+      "description": "Always online mode: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_TYPING": {
+      "description": "Auto typing: true/false/inbox/group (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "AUTO_RECORDING": {
+      "description": "Auto recording: true/false/inbox/group (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "ANTI_LINK": {
+      "description": "Anti-link mode: true/warn/delete/false (Default: true)",
+      "required": false,
+      "value": "true"
+    },
+    "ANTI_DELETE": {
+      "description": "Anti delete: true/false (Default: true)",
+      "required": false,
+      "value": "true"
+    },
+    "ANTI_DELETE_PATH": {
+      "description": "Anti delete path: inbox/group/all (Default: inbox)",
+      "required": false,
+      "value": "inbox"
+    },
+    "ANTI_EDIT": {
+      "description": "Anti edit: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "ANTIEDIT_PATH": {
+      "description": "Anti edit path: inbox/group/all (Default: inbox)",
+      "required": false,
+      "value": "inbox"
+    },
+    "ANTI_CALL": {
+      "description": "Anti call: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "REJECT_MSG": {
+      "description": "Call reject message",
+      "required": false,
+      "value": "*📞 Call not allowed in this number you don't have permission 📵*"
+    },
+    "AUTO_STATUS_SEEN": {
+      "description": "Auto view status: true/false (Default: true)",
+      "required": false,
+      "value": "true"
+    },
+    "AUTO_LIKE_STATUS": {
+      "description": "Auto like status: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "STATUS_LIKE_EMOJIS": {
+      "description": "Status like emojis (comma-separated)",
+      "required": false,
+      "value": "❤️,🔥,👍,😍,💯"
+    },
+    "REACT_EMOJIS": {
+      "description": "Reaction emojis (comma-separated)",
+      "required": false,
+      "value": "❤️,🔥,👍,😍,😂,😮,😎,🥰,👋,🤝,💯,✨,⭐,🎉,🤗,😊,🙌,💪,👏,✅,🎈,🎊,🏆,⚡,💫,👌,🤙,💖,💕,💗,👑,💎,🌟,🎯,🎨,🎭,🎪,🎢,🎡,🎠"
+    },
+    "OWNER_EMOJIS": {
+      "description": "Owner reaction emojis (comma-separated)",
+      "required": false,
+      "value": "👑,💎,⭐,✨,🔥,💯,✅,🎉,🤖,⚡,💫,🌟,🏆,👾,🚀,💪,🎯,🔱,♾️,⚜️"
+    },
+    "WELCOME": {
+      "description": "Welcome/Goodbye messages: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "BOT_MEDIA_URL": {
+      "description": "Bot media URL",
+      "required": false,
+      "value": "https://files.catbox.moe/7zfdcq.jpg"
+    },
+    "AUTO_DOWNLOADER": {
+      "description": "Auto downloader: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    }
+    "ADMIN_ACTION": {
+      "description": "Admin action notifications: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "DESCRIPTION": {
+      "description": "Bot description",
+      "required": false,
+      "value": "*© Powered by Jᴀᴡᴀᴅ TᴇᴄʜX*"
     }
   },
   "buildpacks": [
