@@ -155,7 +155,7 @@
       "description": "Auto downloader: true/false (Default: false)",
       "required": false,
       "value": "false"
-    }
+    },
     "ADMIN_ACTION": {
       "description": "Admin action notifications: true/false (Default: false)",
       "required": false,
