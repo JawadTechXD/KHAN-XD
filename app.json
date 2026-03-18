@@ -41,16 +41,6 @@
       "required": false,
       "value": "false"
     },
-    "AUTO_STATUS_REPLY": {
-      "description": "Auto reply to status: true/false (Default: false)",
-      "required": false,
-      "value": "false"
-    },
-    "AUTO_STATUS_MSG": {
-      "description": "Auto status reply message",
-      "required": false,
-      "value": "*KHAN MD VIEWED YOUR STATUS 🤖*"
-    },
     "READ_MESSAGE": {
       "description": "Auto read messages: true/false (Default: false)",
       "required": false,
@@ -121,16 +111,6 @@
       "required": false,
       "value": "true"
     },
-    "AUTO_LIKE_STATUS": {
-      "description": "Auto like status: true/false (Default: false)",
-      "required": false,
-      "value": "false"
-    },
-    "STATUS_LIKE_EMOJIS": {
-      "description": "Status like emojis (comma-separated)",
-      "required": false,
-      "value": "❤️,🔥,👍,😍,💯"
-    },
     "REACT_EMOJIS": {
       "description": "Reaction emojis (comma-separated)",
       "required": false,
@@ -142,9 +122,29 @@
       "value": "👑,💎,⭐,✨,🔥,💯,✅,🎉,🤖,⚡,💫,🌟,🏆,👾,🚀,💪,🎯,🔱,♾️,⚜️"
     },
     "WELCOME": {
-      "description": "Welcome/Goodbye messages: true/false (Default: false)",
+      "description": "Welcome messages: true/false (Default: false)",
       "required": false,
       "value": "false"
+    },
+    "GOODBYE": {
+      "description": "Goodbye messages: true/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "MENTION_REPLY": {
+      "description": "Mention reply mode: true/note/reply/notify/false (Default: false)",
+      "required": false,
+      "value": "false"
+    },
+    "WELCOME_MESSAGE": {
+      "description": "Welcome message with placeholders: @user, @group, @desc, @count, @bot, @time (Default: *_@user joined the group, welcome! 🎉_*)",
+      "required": false,
+      "value": "*_@user joined the group, welcome! 🎉_*"
+    },
+    "GOODBYE_MESSAGE": {
+      "description": "Goodbye message with placeholders: @user, @group, @desc, @count, @bot, @time (Default: *_@user has left the group, we will miss them! 👋_*)",
+      "required": false,
+      "value": "*_@user has left the group, we will miss them! 👋_*"
     },
     "BOT_MEDIA_URL": {
       "description": "Bot media URL",
